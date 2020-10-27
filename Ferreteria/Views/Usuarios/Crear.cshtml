@@ -31,10 +31,15 @@
     @RenderPage("~/Views/Secciones/Header.cshtml")
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <div class="table-responsive">
-
-                </div>
+            <div class="col-lg-12 form-horizontal">
+                <form action="/Usuarios/" method="post">
+                    <div class="form-group row">
+                        <label for="#" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="#" placeholder="Email">
+                        </div>
+                    </div>
+                </form>                
             </div>
          </div>
     </div>
